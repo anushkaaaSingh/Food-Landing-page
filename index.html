@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Food Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="logo.jpeg"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="indian food  .jpg" alt="Image of food" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Savor the Delicious Delights</h1>
+          <h2>
+            Indulge in a culinary journey like no other
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Order Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Delicious Delights, your gateway to the enchanting world of traditional Indian cuisine! Immerse yourself in a culinary adventure filled with tantalizing flavors, vibrant spices, and a celebration of authentic Indian dishes.
+            At Delicious Delights, we take pride in curating a treasure trove of mouthwatering recipes passed down through generations.
+            From fragrant biryanis to velvety curries, from crispy dosas to heavenly desserts, our website is a treasure trove of culinary wonders that will transport your taste buds to the streets of India.
+          </p>
+          <img src="food2.jpg" alt="traditional indian food" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="https://freshtandooriflavour.ca/sites/default/files/blog-img/xtop-dishes-to-try-if-you,P20are-new-to-indian,P20food.png.pagespeed.ic.K8tkcxLOBx.jpg" alt="photo of indian food" />
+            <h4>Indian food</h4>
+            <p>
+                Discover the rich tapestry of flavors, colors, 
+                and aromas that define the soulful world of Indian cuisine.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://4.imimg.com/data4/ND/GO/MY-13683274/indian-sweets-500x500.jpg"
+              alt="photo of indian desserts"
+            />
+            <h4>Indian Desserts</h4>
+            <p>
+                Indulge in the sweet symphony of Indian desserts, where every bite is a celebration of rich flavors, delicate textures, and pure bliss.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://nomadparadise.com/wp-content/uploads/2022/12/indian-drinks-06-1024x683.jpg" alt="photo of red delicious apple" />
+            <h4>Indian Drinks</h4>
+            <p>
+                Sip on the flavors of India, where vibrant spices, refreshing fruits, and aromatic herbs come together in a symphony of unforgettable drinks that awaken your senses and transport you to a land of exotic delights.            </p>
+          </div>
+          
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh food with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Anushka Singh</a>
+    </footer>
+  </body>
+</html>
